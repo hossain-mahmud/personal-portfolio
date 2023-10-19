@@ -1,0 +1,533 @@
+/* ==== fonts link css part start ==== */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* ---- fonts link css part end ---- */
+/* ==== variables css part start ==== */
+:root {
+    --poppins: 'Poppins', sans-serif;
+    --inter: 'Inter', sans-serif;
+    --brand_color: #ff9900;
+    --heading_color: #333;
+    --paragraph_color: #5A5F66;
+}
+
+/* ---- variables css part end ---- */
+/* ==== common css part start ==== */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(../images/bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* ---- common css part end ---- */
+/* ==== common head css part start ==== */
+.common_head h2 {
+    font-size: 35px;
+    font-family: var(--poppins);
+    font-weight: 700;
+    color: var(--heading_color);
+    margin-bottom: 70px;
+    position: relative;
+}
+
+/* ---- common head part end ---- */
+/* ==== main menu css part start ==== */
+.main_menu {
+    background: #fff;
+    border-bottom: 2px solid rgba(90, 95, 102, 0.10);
+}
+
+.main_menu .logo img {
+    width: 160px;
+    transition: all linear .3s;
+}
+
+.main_menu .logo img:hover {
+    transform: scale(1.1);
+}
+
+.nav_items {
+    gap: 20px;
+}
+
+.nav_items_button {
+    align-items: baseline;
+    gap: 30px;
+}
+
+.main_menu ul li a {
+    font-size: 18px;
+    font-family: var(--poppins);
+    font-weight: 500;
+    color: var(--heading_color) !important;
+    position: relative;
+}
+
+.main_menu ul li a::after {
+    content: '';
+    width: 0;
+    height: 2px;
+    background: purple;
+    position: absolute;
+    top: 80%;
+    left: 0;
+    transition: all linear .4s;
+}
+
+.main_menu ul li a:hover::after {
+    width: 100%;
+}
+
+.resume_button a {
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    background: var(--brand_color);
+    text-align: center;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: var(--poppins);
+    font-weight: 500;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.resume_button a::after {
+    content: '';
+    width: 0%;
+    height: 100%;
+    border-radius: 30px;
+    background: #333;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all linear .5s;
+    z-index: -1;
+}
+
+.resume_button a:hover::after {
+    width: 100%;
+}
+
+/* ---- main menu css part end ---- */
+/* ==== home css part start ==== */
+#home_part {
+    padding: 150px 0;
+}
+
+.home_items {
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.home_text_head h3 {
+    font-size: 20px;
+    font-family: var(--inter);
+    font-weight: 500;
+    color: var(--paragraph_color);
+    margin-bottom: 20px;
+}
+
+.home_text_head h2 {
+    font-size: 60px;
+    font-family: var(--poppins);
+    font-weight: 700;
+    color: var(--heading_color);
+}
+
+.home_text_head p {
+    font-size: 18px;
+    font-family: var(--inter);
+    font-weight: 400;
+    color: var(--paragraph_color);
+    line-height: 30px;
+    text-align: justify;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.home_Contact_button a {
+    width: 180px;
+    height: 60px;
+    border-radius: 5px;
+    background: var(--brand_color);
+    text-align: center;
+    line-height: 60px;
+    font-size: 20px;
+    font-family: var(--poppins);
+    font-weight: 600;
+    color: #fff;
+    transition: all linear .3s;
+    margin-bottom: 50px;
+}
+
+.home_Contact_button a:hover {
+    width: 200px;
+}
+
+.home_social_icon {
+    display: flex;
+    gap: 30px;
+}
+
+.home_social_icon a {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: rgba(51, 51, 51, 0.40);
+    text-align: center;
+    line-height: 60px;
+    color: #fff;
+    transition: all linear .4s;
+}
+
+.home_social_icon a:hover {
+    background: var(--heading_color);
+}
+
+.home_image {
+    width: 500px;
+}
+
+.home_image img {
+    border-radius: 10px;
+    transition: all linear .6s;
+}
+
+.home_image img:hover {
+    filter: saturate(0);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+/* ---- home css part end ---- */
+/* ==== about me css part start ==== */
+#about_me {
+    padding: 50px 0;
+}
+
+.about_row {
+    align-items: center;
+}
+
+.about_photo img {
+    width: 440px;
+    border-radius: 10px;
+}
+
+.table_items tbody {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.table_items tr td {
+    font-size: 22px;
+    color: var(--paragraph_color);
+    font-family: var(--inter);
+    font-weight: 500;
+}
+
+.table_items tr td a {
+    color: var(--paragraph_color);
+}
+
+.table_items tr .table_title {
+    width: 200px;
+    color: var(--heading_color);
+    font-weight: 600;
+    padding-right: 70px;
+}
+
+.resume_download {
+    margin-top: 50px;
+}
+
+.resume_download a {
+    width: 220px;
+    height: 55px;
+    background: var(--heading_color);
+    text-align: center;
+    line-height: 55px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.resume_download a::after {
+    content: '';
+    width: 0;
+    height: 100%;
+    background: var(--brand_color);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all linear .3s;
+}
+
+.resume_download a:hover::after {
+    width: 100%;
+}
+
+/* ---- about me css part end ---- */
+/* ==== skills css part start ==== */
+#skills_part {
+    padding: 50px 0;
+}
+
+.skills_cards {
+    row-gap: 40px;
+}
+
+.skills_card {
+    width: 100%;
+    height: 70px;
+    background: #333;
+    transition: all linear .4s;
+}
+
+.skills_card:hover {
+    width: 90%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.progress_body {
+    height: 20px;
+    background: #333;
+    border-radius: 0;
+}
+
+.progress_color {
+    height: 10px;
+    background: var(--brand_color);
+}
+
+.skills_text {
+    padding: 8px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skills_text h2 {
+    font-size: 22px;
+    font-family: var(--inter);
+    font-weight: 500;
+    color: #fff;
+}
+
+/* ---- skills css part end ---- */
+/* ==== project css part start ==== */
+#project {
+    padding: 50px 0;
+}
+
+.card_item {
+    width: 350px;
+    padding: 20px;
+    background: rgba(236, 240, 241, 0.445);
+    border-radius: 10px;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
+
+.card_image {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.card_title h2 {
+    font-size: 25px;
+    font-weight: 600;
+    font-family: var(--poppins);
+    color: var(--heading_color);
+    text-align: center;
+    margin-top: 20px;
+}
+
+.card_title p {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--inter);
+    color: var(--paragraph_color);
+    text-align: center;
+    margin: 12px 0;
+}
+
+.card_button {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card_button a {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: var(--inter);
+    color: #3498db;
+    transition: all linear .4s;
+}
+
+.card_button a:hover {
+    color: var(--paragraph_color);
+}
+
+.slick-slide {
+    padding: 10px;
+}
+
+.prev_arrow {
+    font-size: 30px;
+    color: var(--paragraph_color);
+    position: absolute;
+    top: 80%;
+    left: 20px;
+    z-index: 999;
+    transition: all linear .4s;
+    opacity: 0;
+}
+
+.cards_row:hover .prev_arrow {
+    top: 40%;
+    opacity: 1;
+}
+
+.next_arrow {
+    font-size: 30px;
+    color: var(--paragraph_color);
+    position: absolute;
+    top: 80%;
+    right: 20px;
+    z-index: 999;
+    transition: all linear .4s;
+    opacity: 0;
+}
+
+.cards_row:hover .next_arrow {
+    top: 40%;
+    opacity: 1;
+}
+
+.slick-dots {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.slick-dots li button {
+    border: none;
+    font-size: 0px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: rgba(90, 95, 102, 0.400);
+
+}
+
+.slick-dots .slick-active button {
+    background: var(--brand_color);
+    width: 20px;
+    height: 20px;
+}
+
+/* ---- project css part end ---- */
+/* ==== main menu css part start ==== */
+
+
+
+
+/* ---- main menu css part end ---- */
+
+
+
+
+
+
+
+
+@media (max-width:992px) {
+
+    .home_social_icon {
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .home_social_icon a {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .home_image {
+        width: 100%;
+    }
+
+    .home_items {
+        text-align: center;
+    }
+
+    .about_row {
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .about_photo img {
+        width: 100%;
+    }
+
+    .table_items tr td {
+        font-size: 15px;
+    }
+
+    .table_items tr .table_title {
+        width: 100px;
+        padding-right: 10px;
+    }
+
+    .resume_download {
+        text-align: center;
+    }
+
+    .resume_download a {
+        width: 200px;
+        height: 45px;
+        line-height: 45px;
+        font-size: 14px;
+    }
+}
