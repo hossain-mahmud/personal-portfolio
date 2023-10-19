@@ -144,7 +144,7 @@ body {
 /* ---- main menu css part end ---- */
 /* ==== home css part start ==== */
 #home_part {
-    padding: 150px 0;
+    padding: 150px 0px 100px 0;
 }
 
 .home_items {
@@ -475,14 +475,17 @@ body {
 /* ---- main menu css part end ---- */
 
 
-
-
-
-
-
-
 @media (max-width:992px) {
-
+    .home_text_head h2{
+        font-size:45px;
+    }
+    .home_text_head h3{
+        font-size: 18px;
+    }
+    .home_text_head p{
+        font-size: 16px;
+        text-align: center;
+    }
     .home_social_icon {
         gap: 20px;
         justify-content: center;
@@ -530,4 +533,11 @@ body {
         line-height: 45px;
         font-size: 14px;
     }
+
+    /* ----- projects part start ----- */
+    .card_image {
+        height: auto;
+    }
+    
+
 }
