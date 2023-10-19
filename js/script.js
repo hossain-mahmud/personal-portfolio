@@ -1,5 +1,4 @@
 // ========== slider part start
-
 $('.cards_row').slick({
     dots: true,
     infinite: true,
