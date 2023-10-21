@@ -467,12 +467,71 @@ body {
 }
 
 /* ---- project css part end ---- */
-/* ==== main menu css part start ==== */
-
-
-
-
-/* ---- main menu css part end ---- */
+/* ==== contact css part start ==== */
+#contact{
+    padding: 100px 0;
+}
+#contact .common_head{
+    text-align: center;
+}
+.contact_icon {
+    text-align: center;
+}
+.contact_icon span i{
+    font-size: 120px;
+    color: var(--paragraph_color);
+}
+.contact_form{
+    width: 400px;
+    padding: 30px 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 0 auto;
+}
+.contact_form input{
+    width: 100%;
+    height: 50px;
+    padding: 10px 20px;
+    border: none;
+   border-radius: 30px;
+   background: #ECF0F1;
+   font-size: 16px;
+   font-weight: 400;
+   font-family: var(--poppins);
+   color: var(--paragraph_color);
+}
+.contact_form input::placeholder{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: var(--paragraph_color);
+}
+.contact_form textarea{
+    width: 100%;
+    height: 100px;
+    background: #ECF0F1;
+    border: none;
+    border-radius: 30px;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: var(--paragraph_color);
+}
+.contact_form  button{
+    width: 100%;
+    height: 50px;
+    border: none;
+    background: var(--brand_color);
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: var(--poppins);
+    color: #fff;
+}
+/* ---- contact css part end ---- */
 
 
 @media (max-width:992px) {
