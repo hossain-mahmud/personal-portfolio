@@ -85,7 +85,13 @@ body {
     align-items: baseline;
     gap: 30px;
 }
-
+.fixed_menu{
+    width: 100%;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
 .main_menu ul li a {
     font-size: 18px;
     font-family: var(--poppins);
