@@ -37,7 +37,7 @@ $('.cards_row').slick({
   });
   // ========== slider part end 
   // skills counter start
-  $('.counter').counterUp({
-    delay: 10,
+  $('.skills_count').counterUp({
+    delay: 20,
     time: 1000
 });
