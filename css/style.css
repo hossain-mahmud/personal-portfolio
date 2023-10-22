@@ -85,13 +85,15 @@ body {
     align-items: baseline;
     gap: 30px;
 }
-.fixed_menu{
+
+.fixed_menu {
     width: 100%;
     position: sticky;
     top: 0;
     left: 0;
     z-index: 999;
 }
+
 .main_menu ul li a {
     font-size: 18px;
     font-family: var(--poppins);
@@ -474,20 +476,24 @@ body {
 
 /* ---- project css part end ---- */
 /* ==== contact css part start ==== */
-#contact{
+#contact {
     padding: 100px 0;
 }
-#contact .common_head{
+
+#contact .common_head {
     text-align: center;
 }
+
 .contact_icon {
     text-align: center;
 }
-.contact_icon span i{
+
+.contact_icon span i {
     font-size: 120px;
     color: var(--paragraph_color);
 }
-.contact_form{
+
+.contact_form {
     width: 400px;
     padding: 30px 20px;
     border-radius: 10px;
@@ -496,25 +502,28 @@ body {
     gap: 30px;
     margin: 0 auto;
 }
-.contact_form input{
+
+.contact_form input {
     width: 100%;
     height: 50px;
     padding: 10px 20px;
     border: none;
-   border-radius: 30px;
-   background: #ECF0F1;
-   font-size: 16px;
-   font-weight: 400;
-   font-family: var(--poppins);
-   color: var(--paragraph_color);
-}
-.contact_form input::placeholder{
+    border-radius: 30px;
+    background: #ECF0F1;
     font-size: 16px;
     font-weight: 400;
     font-family: var(--poppins);
     color: var(--paragraph_color);
 }
-.contact_form textarea{
+
+.contact_form input::placeholder {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: var(--paragraph_color);
+}
+
+.contact_form textarea {
     width: 100%;
     height: 100px;
     background: #ECF0F1;
@@ -526,7 +535,8 @@ body {
     font-family: var(--poppins);
     color: var(--paragraph_color);
 }
-.contact_form  button{
+
+.contact_form button {
     width: 100%;
     height: 50px;
     border: none;
@@ -537,20 +547,24 @@ body {
     font-family: var(--poppins);
     color: #fff;
 }
+
 /* ---- contact css part end ---- */
 
 
 @media (max-width:992px) {
-    .home_text_head h2{
-        font-size:45px;
+    .home_text_head h2 {
+        font-size: 45px;
     }
-    .home_text_head h3{
+
+    .home_text_head h3 {
         font-size: 18px;
     }
-    .home_text_head p{
+
+    .home_text_head p {
         font-size: 16px;
         text-align: center;
     }
+
     .home_social_icon {
         gap: 20px;
         justify-content: center;
@@ -603,6 +617,6 @@ body {
     .card_image {
         height: auto;
     }
-    
+
 
 }
