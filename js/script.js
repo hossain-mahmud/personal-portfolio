@@ -47,7 +47,7 @@ let mainMenu = document.querySelector('.main_menu');
 window.addEventListener('scroll', () => {
   let scrolling = this.scrollY;
 
-  if (scrolling > 175) {
+  if (scrolling > 100) {
     mainMenu.classList.add('fixed_menu')
   } else {
     mainMenu.classList.remove('fixed_menu')

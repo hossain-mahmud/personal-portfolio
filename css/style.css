@@ -91,7 +91,16 @@ body {
     position: sticky;
     top: 0;
     left: 0;
-    z-index: 999;
+    animation: nav_sticky .5s linear;
+    z-index: 100;
+}
+@keyframes nav_sticky{
+    0%{
+        top: -100px;
+    }
+    100%{
+        top: 0%;
+    }
 }
 
 .main_menu ul li a {
