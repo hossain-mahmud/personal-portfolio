@@ -43,14 +43,17 @@ $('.skills_count').counterUp({
 // skills counter end
 // nav sticky start
 let mainMenu = document.querySelector('.main_menu');
+let backTotop = document.querySelector('.back_to_top');
 
 window.addEventListener('scroll', () => {
   let scrolling = this.scrollY;
 
   if (scrolling > 100) {
     mainMenu.classList.add('fixed_menu')
+    backTotop.classList.add('fixed_back_to_top')
   } else {
     mainMenu.classList.remove('fixed_menu')
+    backTotop.classList.add('fixed_back_to_top')
   }
 })
 // nav sticky end
