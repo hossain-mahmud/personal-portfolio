@@ -635,7 +635,7 @@ body {
 }
 
 /* ---- footer css part end ---- */
-
+/* ------ responsive css part start ------ */
 @media (max-width:992px) {
     .home_text_head h2 {
         font-size: 45px;
@@ -720,3 +720,4 @@ body {
         text-align: center;
     }
 }
+/* ------ responsive css part start ------ */
