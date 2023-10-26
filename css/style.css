@@ -42,10 +42,12 @@ ol {
     margin: 0;
     padding: 0;
 }
-::selection{
+
+::selection {
     background: var(--brand_color);
     color: #fff;
 }
+
 body {
     background: url(../images/bg.png);
     background-position: center;
@@ -92,16 +94,19 @@ body {
 .fixed_menu {
     width: 100%;
     position: sticky;
+    background: rgba(255, 255, 255, 0.90);
     top: 0;
     left: 0;
     animation: nav_sticky .5s linear;
     z-index: 100;
 }
-@keyframes nav_sticky{
-    0%{
+
+@keyframes nav_sticky {
+    0% {
         top: -100px;
     }
-    100%{
+
+    100% {
         top: 0%;
     }
 }
@@ -562,38 +567,44 @@ body {
 
 /* ---- contact css part end ---- */
 /* ==== footer css part start ==== */
-#footer{
+#footer {
     background: var(--heading_color);
     width: 100%;
     padding: 20px 0;
     position: relative;
 }
-.footer_body{
+
+.footer_body {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     gap: 20px;
 }
-.footer_copyright p{
+
+.footer_copyright p {
     font-size: 16px;
     font-weight: 500;
     font-family: var(--poppins);
     color: #fff;
 }
-.footer_icon  ul{
+
+.footer_icon ul {
     display: flex;
     gap: 20px;
 }
-.footer_icon a{
+
+.footer_icon a {
     color: #fff;
     font-size: 18px;
-    transition:  all linear .3s;
+    transition: all linear .3s;
 }
-.footer_icon a:hover{
+
+.footer_icon a:hover {
     color: var(--brand_color);
 }
-.back_to_top{
+
+.back_to_top {
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -609,17 +620,18 @@ body {
     position: fixed;
 }
 
-.back_to_top a{
+.back_to_top a {
     font-size: 18px;
     color: #fff;
 }
 
-.fixed_back_to_top{
+.fixed_back_to_top {
     visibility: visible;
     opacity: 1;
     opacity: 1;
     visibility: visible;
     bottom: 12px;
+    background: rgba(51, 51, 51, 0.50);
 }
 
 /* ---- footer css part end ---- */
@@ -685,13 +697,26 @@ body {
         line-height: 45px;
         font-size: 14px;
     }
+
     .card_image {
         height: auto;
     }
-    .footer_body{
-       justify-content: center;
+
+    .contact_form {
+        width: 320px;
+        padding: 20px 30px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin: 0 auto;
     }
-    .footer_copyright p{
+
+    .footer_body {
+        justify-content: center;
+    }
+
+    .footer_copyright p {
         text-align: center;
     }
 }
