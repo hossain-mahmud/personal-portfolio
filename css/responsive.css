@@ -67,18 +67,63 @@
         font-size: 15px;
         margin: 0 auto;
     }
-
     /* ------- about part end ------- */
-    /* ------- main menu part start ------- */
+    /* ------- skills part start ------- */
+    #skills_part {
+        padding: 44px 0;
+    }
+    .skills_card {
+        height: 50px;
+    }
+    .skills_text {
+        padding: 0px 30px;
+    }
+    .skills_text h2 {
+        font-size: 19px;
+    }
+    /* ------- skills part end ------- */
+    /* ------- project part start ------- */
+    #project {
+        padding: 44px 0;
+    }
 
-
-
-
-    /* ------- main menu part end ------- */
-
-
-
-
+    /* ------- project part end ------- */
+    /* ------- contact part start ------- */
+    #contact {
+        padding: 10px 0;
+    }
+    .contact_icon span i {
+        font-size: 85px;
+    }
+    .contact_form {
+        width: 100%;
+        padding: 11px 5px;
+        gap: 25px;
+    }
+    .contact_form button {
+        font-size: 16px;
+    }
+    /* ------- contact part end ------- */
+    /* ------- back to top part start ------- */
+    .back_to_top {
+        width: 30px;
+        height: 30px;
+    }
+    .back_to_top a {
+        font-size: 15px;
+    }
+    /* ------- back to top end ------- */
+    /* ------- footer part start ------- */
+    .footer_body {
+        justify-content: center;
+    }
+    .footer_copyright p {
+        font-size: 14px;
+    }
+    .footer_icon a {
+        font-size: 16px;
+    }
+    /* ------- footer part end ------- */
  }
 
 
