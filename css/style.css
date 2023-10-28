@@ -514,7 +514,6 @@ body {
 .contact_form {
     width: 400px;
     padding: 30px 20px;
-    border-radius: 10px;
     display: flex;
     flex-direction: column;
     gap: 30px;
