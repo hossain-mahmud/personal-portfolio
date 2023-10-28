@@ -1,4 +1,4 @@
-/* ------ Small devices responsive css part start ------ */
+/* ------ X-Small devices responsive css part start ------ */
 @media(max-width: 575.98px) {
 
     /* ------- main menu part start ------- */
@@ -50,12 +50,15 @@
         height: 40px;
         line-height: 40px;
     }
+
     .home_social_icon {
         justify-content: center;
     }
+
     .home_image {
         margin: 0 auto;
     }
+
     /* ------- home part end ------- */
     /* ------- about part start ------- */
     #about_me {
@@ -110,14 +113,17 @@
     #project {
         padding: 44px 0;
     }
+
     .slick-dots li button {
         width: 10px;
         height: 10px;
     }
+
     .slick-dots .slick-active button {
         width: 12px;
         height: 12px;
     }
+
     /* ------- project part end ------- */
     /* ------- contact part start ------- */
     #contact {
@@ -166,13 +172,13 @@
     /* ------- footer part end ------- */
 }
 
-/* ------ Small devices responsive css part end ------ */
-/* ------ medium devices responsive css part start ------ */
+/* ------ X-Small devices responsive css part end ------ */
+/* ------ small devices responsive css part start ------ */
 @media (min-width: 576px) and (max-width: 767.98px) {
 
     /* ------- main menu part start ------- */
     .main_menu .logo img {
-        width: 160px;
+        width: 140px;
     }
 
     .navbar-nav {
@@ -219,12 +225,186 @@
         height: 40px;
         line-height: 40px;
     }
+
+    .home_social_icon {
+        justify-content: center;
+    }
+
+    .home_image {
+        margin: 0 auto;
+    }
+
+    /* ------- home part end ------- */
+    /* ------- about part start ------- */
+    #about_me {
+        padding: 44px 0;
+    }
+
+    .common_head h2 {
+        font-size: 27px;
+        margin-bottom: 40px;
+    }
+
+    .table_items {
+        margin-top: 30px;
+    }
+
+    .table_items tr td {
+        font-size: 22px;
+    }
+
+    .table_items tr .table_title {
+        width: 152px;
+        padding-right: 22px;
+    }
+
+    .resume_download a {
+        width: 209px;
+        height: 64px;
+        font-size: 17px;
+        margin: 0 auto;
+    }
+
+    /* ------- about part end ------- */
+    /* ------- skills part start ------- */
+    #skills_part {
+        padding: 44px 0;
+    }
+
+    .skills_card {
+        height: 70px;
+    }
+
+    .skills_text {
+        padding: 10px 30px;
+    }
+
+    .skills_text h2 {
+        font-size: 20px;
+    }
+
+    /* ------- skills part end ------- */
+    /* ------- project part start ------- */
+    #project {
+        padding: 44px 0;
+    }
+
+    .slick-dots li button {
+        width: 12px;
+        height: 12px;
+    }
+
+    .slick-dots .slick-active button {
+        width: 15px;
+        height: 15px;
+    }
+
+    /* ------- project part end ------- */
+    /* ------- contact part start ------- */
+    #contact {
+        padding: 50px 0;
+    }
+
+    .contact_icon span i {
+        font-size: 100px;
+    }
+
+    .contact_form {
+        width: 100%;
+        padding: 25px 3px;
+        gap: 28px;
+    }
+
+    .contact_form button {
+        font-size: 18px;
+    }
+
+    /* ------- contact part end ------- */
+    /* ------- back to top part start ------- */
+    .back_to_top {
+        width: 30px;
+        height: 30px;
+    }
+
+    .back_to_top a {
+        font-size: 15px;
+    }
+
+    /* ------- back to top end ------- */
+    /* ------- footer part start ------- */
+    .footer_body {
+        justify-content: center;
+    }
+
+    .footer_copyright p {
+        font-size: 16px;
+    }
+
+    .footer_icon a {
+        font-size: 18px;
+    }
+}
+
+/* ------ small devices responsive css part end ------ */
+/* ------ medium devices responsive css part start ------ */
+@media (min-width: 768px) and (max-width: 991.98px) {
+      /* ------- main menu part start ------- */
+      .main_menu .logo img {
+        width: 140px;
+    }
+
+    .navbar-nav {
+        align-items: center;
+    }
+
+    .resume_button {
+        text-align: center;
+    }
+
+    /* ------- main menu part end ------- */
+    /* ------- home part start ------- */
+    #home_part {
+        padding: 44px 0;
+    }
+
+    .home_text_head h3 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .home_text_head h2 {
+        font-size: 65px;
+        text-align: center;
+    }
+
+    .home_text_head p {
+        font-size: 18px;
+    }
+
+    .home_Contact_button {
+        margin-bottom: 30px;
+    }
+
+    .home_Contact_button a {
+        width: 180px;
+        height: 60px;
+        font-size: 20px;
+        margin: 0 auto;
+    }
+
+    .home_social_icon a {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
     .home_social_icon {
         justify-content: center;
     }
     .home_image {
+        width:100%;
         margin: 0 auto;
     }
+    
     /* ------- home part end ------- */
     /* ------- about part start ------- */
     #about_me {
@@ -298,7 +478,6 @@
     }
 
     .contact_form {
-        width: 100%;
         padding: 25px 3px;
         gap: 28px;
     }
@@ -310,12 +489,12 @@
     /* ------- contact part end ------- */
     /* ------- back to top part start ------- */
     .back_to_top {
-        width: 30px;
-        height: 30px;
+        width: 32px;
+        height: 32px;
     }
 
     .back_to_top a {
-        font-size: 15px;
+        font-size: 16px;
     }
 
     /* ------- back to top end ------- */
@@ -331,14 +510,7 @@
     .footer_icon a {
         font-size: 18px;
     }
-
 }
-
-/* ------ medium devices responsive css part end ------ */
-/* ------ medium devices responsive css part start ------ */
-
-
-
 
 /* ------ medium devices responsive css part end ------ */
 
