@@ -1,0 +1,198 @@
+/* ------responsive css part start ------ */
+@media(max-width: 575.98px) { 
+    /* ------- main menu part start ------- */
+    .main_menu .logo img {
+        width: 123px;
+    }
+    .navbar-nav {
+        align-items: center;
+    }
+    .resume_button{
+        text-align: center;
+    }
+
+    /* ------- main menu part end ------- */
+    /* ------- home part start ------- */
+    #home_part {
+        padding: 44px 0;
+    }
+    .home_text_head h3 {
+        font-size: 16px;
+       text-align: center;
+    }
+    .home_text_head h2 {
+        font-size: 40px;
+        text-align: center;
+    }
+    .home_text_head p {
+        font-size: 15px;
+    }
+    .home_Contact_button{
+       margin-bottom: 30px;
+    }
+    .home_Contact_button a {
+        width: 134px;
+        height: 45px;
+        font-size: 17px;
+        margin: 0 auto;
+    }
+    .home_social_icon a {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        margin: 0 auto;
+    }
+    /* ------- home part end ------- */
+    /* ------- about part start ------- */
+    #about_me {
+        padding: 44px 0;
+    }
+    .common_head h2 {
+        font-size: 24px;
+        margin-bottom: 40px;
+    }
+    .table_items{
+        margin-top: 30px;
+    }
+    .table_items tr td {
+        font-size: 15px;
+    }
+    .table_items tr .table_title {
+        width: 152px;
+        padding-right: 22px;
+    }
+    .resume_download a {
+        width: 177px;
+        height: 45px;
+        font-size: 15px;
+        margin: 0 auto;
+    }
+
+    /* ------- about part end ------- */
+    /* ------- main menu part start ------- */
+
+
+
+
+    /* ------- main menu part end ------- */
+
+
+
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media (max-width:992px) {
+    .home_text_head h2 {
+        font-size: 45px;
+    }
+
+    .home_text_head h3 {
+        font-size: 18px;
+    }
+
+    .home_text_head p {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .home_social_icon {
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .home_social_icon a {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .home_image {
+        width: 100%;
+    }
+
+    .home_items {
+        text-align: center;
+    }
+
+    .about_row {
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .about_photo img {
+        width: 100%;
+    }
+
+    .table_items tr td {
+        font-size: 15px;
+    }
+
+    .table_items tr .table_title {
+        width: 100px;
+        padding-right: 10px;
+    }
+
+    .resume_download {
+        text-align: center;
+    }
+
+    .resume_download a {
+        width: 200px;
+        height: 45px;
+        line-height: 45px;
+        font-size: 14px;
+    }
+
+    .card_image {
+        height: auto;
+    }
+
+    .contact_form {
+        width: 320px;
+        padding: 20px 30px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin: 0 auto;
+    }
+
+    .footer_body {
+        justify-content: center;
+    }
+
+    .footer_copyright p {
+        text-align: center;
+    }
+} */
+/* ------ responsive css part start ------ */
