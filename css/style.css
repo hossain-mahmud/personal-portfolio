@@ -640,10 +640,21 @@ body::-webkit-scrollbar {
 .fixed_back_to_top {
     visibility: visible;
     opacity: 1;
-    opacity: 1;
-    visibility: visible;
     bottom: 12px;
     background: rgba(51, 51, 51, 0.50);
+    transition: all linear .3s;
+    animation: backTo .4s linear;
+}
+.fixed_back_to_top:hover{
+    transform: scale(1.1);
+}
+@keyframes backTo{
+    from{
+        bottom: -12px;
+    }
+    to{
+        bottom: 12px;
+    }
 }
 
 /* ---- footer css part end ---- */
