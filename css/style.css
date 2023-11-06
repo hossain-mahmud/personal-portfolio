@@ -9,6 +9,8 @@
     --brand_color: #ff9900;
     --heading_color: #333;
     --paragraph_color: #5A5F66;
+    --sb-track-color: #eaeaea;
+    --sb-size: 4px;
 }
 
 /* ---- variables css part end ---- */
@@ -53,8 +55,22 @@ body {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    scrollbar-color: var(--brand_color) 
+                   var(--sb-track-color);
 }
-
+body::-webkit-scrollbar {
+    width: var(--sb-size);
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: var(--sb-track-color);
+    border-radius: 1px;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background: var(--brand_color);
+    border-radius: 10px;
+  }
 /* ---- common css part end ---- */
 /* ==== common head css part start ==== */
 .common_head h2 {
