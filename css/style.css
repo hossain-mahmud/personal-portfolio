@@ -411,7 +411,7 @@ body::-webkit-scrollbar {
 }
 
 .card_title h2 {
-    font-size: 25px;
+    font-size: 22px;
     font-weight: 600;
     font-family: var(--poppins);
     color: var(--heading_color);
