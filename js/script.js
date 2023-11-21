@@ -58,9 +58,24 @@ window.addEventListener('scroll', () => {
   if (scrolling > 150) {
     mainMenu.classList.add('fixed_menu')
     backTotop.classList.add('fixed_back_to_top')
+
   } else {
     mainMenu.classList.remove('fixed_menu')
     backTotop.classList.remove('fixed_back_to_top')
   }
 })
 // nav sticky end
+//cursor animation start
+const cursor = document.querySelector('.cursor');
+
+document.addEventListener('mousemove', e => {
+    cursor.setAttribute("style", "top: " + (e.pageY - 10) + "px; left: " + (e.pageX - 10) + "px;")
+});
+
+document.addEventListener('click', e => {
+    cursor.classList.add("expand");
+    setTimeout(() => {
+        cursor.classList.remove("expand");
+    }, 500);
+});
+//cursor animation end
