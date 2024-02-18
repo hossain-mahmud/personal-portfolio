@@ -77,10 +77,15 @@ body::-webkit-scrollbar {
     font-family: var(--poppins);
     font-weight: 700;
     color: var(--heading_color);
+    border-left: 3px solid #ff9900;
+    padding-left: 10px;
     margin-bottom: 70px;
     position: relative;
+    transition: all linear .3s;
 }
-
+.common_head h2:hover{
+    border-left: 18px solid var(--brand_color);
+}
 /* ---- common head part end ---- */
 /* ==== main menu css part start ==== */
 .main_menu .logo img {
@@ -278,11 +283,12 @@ body::-webkit-scrollbar {
 .about_row {
     align-items: center;
 }
-
+.about_photo{
+    padding-right: 20px;
+}
 .about_photo img {
     width: 440px;
     border-radius: 10px;
-    padding-right: 20px;
 }
 .about_text{
     padding-left: 20px;
@@ -526,10 +532,9 @@ body::-webkit-scrollbar {
     padding: 100px 0;
 }
 
-#contact .common_head {
-    text-align: center;
+.contact_image img{
+    width:400px;
 }
-
 .contact_icon {
     text-align: center;
 }
@@ -540,7 +545,7 @@ body::-webkit-scrollbar {
 }
 
 .contact_form {
-    width: 400px;
+    /* width: 400px; */
     padding: 30px 20px;
     display: flex;
     flex-direction: column;
