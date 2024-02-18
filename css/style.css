@@ -44,7 +44,6 @@ ol {
     margin: 0;
     padding: 0;
 }
-
 ::selection {
     background: var(--brand_color);
     color: #fff;
@@ -283,8 +282,25 @@ body::-webkit-scrollbar {
 .about_photo img {
     width: 440px;
     border-radius: 10px;
+    padding-right: 20px;
 }
-
+.about_text{
+    padding-left: 20px;
+}
+.about_text p{
+    font-size: 18px;
+    font-family: var(--inter);
+    font-weight: 400;
+    color: var(--paragraph_color);
+    line-height: 30px;
+    text-align: justify;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.about_text p span{
+    display: block;
+    margin-top: 20px;
+}
 .table_items tbody {
     display: flex;
     flex-wrap: wrap;
