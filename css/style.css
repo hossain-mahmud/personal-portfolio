@@ -152,11 +152,9 @@ body::-webkit-scrollbar {
     left: 0;
     transition: all linear .4s;
 }
-
 .main_menu ul li a:hover::after {
     width: 100%;
 }
-
 .resume_button a {
     width: 100px;
     height: 40px;
