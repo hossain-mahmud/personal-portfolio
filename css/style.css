@@ -228,7 +228,7 @@ body::-webkit-scrollbar {
 .home_Contact_button a {
     width: 180px;
     height: 60px;
-    border-radius: 5px;
+    border-radius: 50px;
     background: var(--brand_color);
     display: flex;
     align-items: center;
