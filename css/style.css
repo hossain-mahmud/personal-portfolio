@@ -95,6 +95,9 @@ body::-webkit-scrollbar {
 }
 /* ---- common head part end ---- */
 /* ==== main menu css part start ==== */
+.main_menu{
+    margin-top: 10px;
+}
 .main_menu .logo img {
     width: 160px;
     transition: all linear .3s;
