@@ -269,12 +269,13 @@ body::-webkit-scrollbar {
 }
 
 .home_image {
-    width: 500px;
+    width: 550px;
 }
 
 .home_image img {
     border-radius: 10px;
     transition: all linear .6s;
+     border: 1px solid #e0e0e0;
 }
 
 .home_image img:hover {
